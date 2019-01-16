@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2018 at 11:07 AM
+-- Generation Time: Jan 16, 2019 at 07:22 PM
 -- Server version: 5.7.20-log
 -- PHP Version: 7.2.11
 
@@ -34,13 +34,6 @@ CREATE TABLE `exam` (
   `examiner_id` varchar(128) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `exam`
---
-
-INSERT INTO `exam` (`e_name`, `e_code`, `examiner_id`) VALUES
-('compiler', 'cs1234', '0a2a1719bf3ce682afdbedf3b23857818d526efbe7fcb372b31347c26239a0f916c398b7ad8dd0ee76e8e388604d0b0f925d5e913ad2d3165b9b35b3844cd5e6');
-
 -- --------------------------------------------------------
 
 --
@@ -58,7 +51,7 @@ CREATE TABLE `examiner` (
 --
 
 INSERT INTO `examiner` (`examiner_id`, `full_name`, `username`) VALUES
-('0a2a1719bf3ce682afdbedf3b23857818d526efbe7fcb372b31347c26239a0f916c398b7ad8dd0ee76e8e388604d0b0f925d5e913ad2d3165b9b35b3844cd5e6', 'Abdulwahab Alhendi', 'M');
+('0a2a1719bf3ce682afdbedf3b23857818d526efbe7fcb372b31347c26239a0f916c398b7ad8dd0ee76e8e388604d0b0f925d5e913ad2d3165b9b35b3844cd5e6', 'Abdulwahab Alhendi', 'Admin_Abdulwahab');
 
 -- --------------------------------------------------------
 
@@ -91,13 +84,6 @@ CREATE TABLE `student` (
   `email` varchar(45) DEFAULT NULL,
   `activated` varchar(10) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `student`
---
-
-INSERT INTO `student` (`student_id`, `f_name`, `s_name`, `l_name`, `email`, `activated`) VALUES
-('ca2c70bc13298c5109ee0cb342d014906e6365249005fd4beee6f01aee44edb531231e98b50bf6810de6cf687882b09320fdd5f6375d1f2debd966fbf8d03efa', 'a', 'a', 'a', 'a@a.com', '1');
 
 -- --------------------------------------------------------
 
