@@ -17,7 +17,7 @@
 <?php // match the examiner
 
     // ----------------------------> examiner password
-    // $username  = 'M';
+    // $username  = 'Admin_Abdulwahab';
     // $pass = '12345';
     // $hash = hash('sha3-512', $pass);
     // echo 'examiner password hash is = ' . $hash. '<br>';
