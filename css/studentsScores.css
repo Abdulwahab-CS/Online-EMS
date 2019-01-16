@@ -1,0 +1,83 @@
+/* to make the background image --------- Start -------- */
+HTML {
+    background: url("../imgs/b9.jpg");
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+/* to make the background image  --------- End -------- */
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px gray;
+}
+
+table tr {
+    border-radius: 5px;
+}
+
+.container {
+    margin-top: 3.5%;
+}
+
+th, td {
+    text-align: center;
+    border: 2px solid gray;
+
+}
+
+.table thead th {
+    border: 2px solid gray;
+    vertical-align: middle;
+}
+
+table {
+    color: black;
+}
+
+thead {
+    background-color: rgb(189, 189, 189);
+    font-weight: 600;
+}
+
+tbody {
+    background-color: white;
+    font-weight: 600;
+}
+
+.sub_th {
+    background-color: rgb(189, 224, 191);
+    font-weight: 600;
+}
+
+.myBtn {
+    width: 100px;
+}
+
+.empryScores {
+    display: none;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    color: black;
+}
+
+@media (max-width: 573px) {
+    body  {
+        min-height: 1250px;
+        min-width: 600px;
+    }
+}

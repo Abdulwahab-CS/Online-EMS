@@ -1,0 +1,95 @@
+/* to make the background image --------- Start -------- */
+HTML {
+    background: url("../imgs/b16.jpg");
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+/* to make the background image  --------- End -------- */
+
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card-body {
+    margin: 15px auto;
+    
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #05668D;
+    color: white;
+    border-radius: 4px;
+}
+
+.my_input_group {
+    margin-bottom: 15px;
+}
+
+
+a, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.my_inner_border{
+    width: 100%; 
+}
+
+#verification_modal{
+    display: none;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 40px; 
+}
+
+.verification_form{
+padding: 5px;
+color: black;
+}
+
+.vHeaderText{
+    margin: 10px;
+    color: white;
+    background-color: gray;
+    padding: 15px;
+}
+
+.vLabel {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.vBtn {
+    margin: 10px;
+}
+
+.out-border {
+    border: 1px solid gray;
+}
+
+.verifCode {
+    color: black;
+    padding: 10px;
+    background-color: rgb(184, 181, 181);
+    margin: 10px auto;
+    width: 40%;
+}

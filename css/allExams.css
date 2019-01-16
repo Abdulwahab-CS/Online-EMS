@@ -1,0 +1,99 @@
+/* to make the background image --------- Start -------- */
+HTML {
+    background: url("../imgs/b9.jpg");
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+/* to make the background image  --------- End -------- */
+
+.container {
+    margin-top: 3.5%;
+}
+
+th, td {
+    text-align: center;
+    border: 2px solid gray;
+    
+}
+
+.table thead th {
+    border: 2px solid gray;
+}
+
+.table td, th {
+    vertical-align: middle;
+}
+
+thead {
+    background-color: rgb(218, 214, 214);
+    color: black;
+}
+
+tbody {
+    background-color: white;
+    color: black;
+}
+
+.allExams_header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.1em;
+    text-shadow: 1px 1px 2px lightgray;
+}
+
+a, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.showExam {
+    background-color: #05668D;
+    margin: 5px;
+}
+
+.manageQuestions {
+    background-color: #00A896;
+}
+
+.deleteBtn {
+    background-color: #F26868;
+    margin: 5px;
+}
+
+.showExam:hover, .editBtn:hover, .deleteBtn:hover, .manageQuestions:hover {
+    opacity: 0.7;
+}
+.btn {
+    color: white;
+}
+
+.noExams {
+    display: none;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    color: black;
+}
+
+@media (max-width: 800px) {
+    body {
+        min-height: 1250px;
+        min-width: 800px;
+    }
+    .container {
+        margin-top: 3.5%;
+        min-width: 800px;
+    }
+}
