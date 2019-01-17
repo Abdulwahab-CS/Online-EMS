@@ -30,4 +30,4 @@ Save time and money in the examination process.
 
 <h5># Showing the responsiveness from a mobile device</h5>
 
-<img src="screenshots/Responsiveness.png" width="40%" height="600px">
+<img src="screenshots/Responsiveness.png" width="60%" height="700px">
