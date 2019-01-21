@@ -1,9 +1,7 @@
 # Online-EMS
 Online Examination Management System
 
-Examination Management System (EMS) is the all-in-one solution for managing exams at your institution.
-Optimise your students’ experience by reducing the operational risks which exams produce.
-Save time and money in the examination process.
+Examination Management System (EMS) is the all-in-one solution for managing online exams at any educational institution. Optimize the students’ experience by reducing the operational risks which exams produce. Save time and money in the examination process.
 
 <h5># As an Examiner, you can:</h5> 
 - Add / Updata / Remove an exam.<br>
