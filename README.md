@@ -13,7 +13,7 @@ Save time and money in the examination process.
 - A Table shows all students scores in all exams.
 
 <h5># Main Features in my (EMS):</h5> 
-- Perfect validation by using Regular Expressions.<br> 
+- Perfect input validation by using Regular Expressions.<br> 
 - Email verification for student account activation.<br>
 - AJAX for best User Experaince.<br>
 - Using Sessions and Encrypted passwords to support the security issues.<br>
