@@ -27,7 +27,3 @@ Save time and money in the examination process.
 <img src="screenshots/examiner.png" width="80%">
 
 <img src="screenshots/Student.png" width="80%">
-
-<h5># Showing the responsiveness from a mobile device</h5>
-
-<img src="screenshots/Responsiveness.png" width="70%" height="600px">
