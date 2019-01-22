@@ -12,11 +12,11 @@ Examination Management System (EMS) is the all-in-one solution for managing onli
 
 <h5># Main Features in my (EMS):</h5> 
 - Perfect input validation by using Regular Expressions.<br> 
-- Email verification for student account activation.<br>
+- Email verification for account activation.<br>
 - AJAX for best User Experaince.<br>
 - Using Sessions and Encrypted passwords to support the security issues.<br>
 - Nice UX/UI specially when using Sweet Alert javaScript library.<br>
-- Responsivess abiliry in which the website response to any device screen size.
+- Responsivess ability in which the website response to any device screen size.
 
 -----------------------------------------------------------------------------------------------
 
