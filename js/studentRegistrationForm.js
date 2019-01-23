@@ -95,7 +95,7 @@ $(document).ready(function() {
         if( !isValidIDLength($("#id").val()) ) {
             swal({
                 title: 'Error',
-                text: '!! Long National ID ( must be less than 10 chars )',
+                text: '!! National ID must be 10 numbers',
                 type: 'error'
             });
 
@@ -158,7 +158,7 @@ function isValidEamilLength($email){
 }
 
 function isValidIDLength($id){
-    if($id.length <= 10)
+    if($id.length == 10)
         return true;
     else
         return false;
